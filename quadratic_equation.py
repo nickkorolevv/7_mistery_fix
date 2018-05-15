@@ -1,12 +1,12 @@
 from math import sqrt
 
-def get_first_root(major_coef, mid_coef, Discr):
-    first_root = (-mid_coef - sqrt(Discr))/(2 * major_coef)
+def get_first_root(major_coef, mid_coef, Discriminant):
+    first_root = (-mid_coef - sqrt(Discriminant))/(2 * major_coef)
     return first_root
 
 
-def get_second_root(major_coef, mid_coef, Discr):
-    second_root = (-mid_coef + sqrt(Discr))/(2 * major_coef)
+def get_second_root(major_coef, mid_coef, Discriminant):
+    second_root = (-mid_coef + sqrt(Discriminant))/(2 * major_coef)
     return second_root
     
 
